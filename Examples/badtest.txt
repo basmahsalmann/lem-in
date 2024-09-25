@@ -1,0 +1,15 @@
+8
+##start
+start_room 0 0
+middle_room 3 4
+end_room 5 6
+##end
+extra_room 7 8
+start_room-middle_room
+middle_room-end_room
+extra_room-end_room
+start_room-middle_room
+start_room-end_room  # Invalid: extra space in tunnel definition
+start_room-extra_room
+middle_room-start_room  # Invalid: duplicate tunnel
+end_room-middle_room  # Invalid: tunnel connects end to a non-end room

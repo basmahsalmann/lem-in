@@ -1,0 +1,17 @@
+10
+##start
+alice 1 2
+bob 3 5
+carol 6 2
+dave 9 7
+eve 4 9
+##end
+frank 7 8
+alice-bob
+bob-carol
+carol-dave
+bob-eve
+eve-frank
+carol-frank
+alice-eve
+dave-frank

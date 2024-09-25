@@ -1,0 +1,14 @@
+7
+##start
+alpha 2 3
+beta 5 6
+gamma 8 1
+##end
+delta 3 7
+alpha-beta
+beta-gamma
+gamma-delta
+alpha-gamma
+gamma-alpha  # Invalid: duplicate tunnel
+beta-delta
+start-beta  # Invalid: start should not be used in tunnels

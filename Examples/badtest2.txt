@@ -1,0 +1,12 @@
+6
+##start
+start 0 0
+mid 2 2
+end 4 4
+##end
+extra 6 6
+start-mid
+mid-end
+start-extra  # Invalid: tunnel to a room not listed as an end or start
+mid-mid  # Invalid: self-loop tunnel
+extra-end
